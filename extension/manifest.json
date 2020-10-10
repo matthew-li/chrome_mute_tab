@@ -1,0 +1,27 @@
+{
+  "name": "Mute Tab",
+  "version": "1.0.0",
+  "description": "Mute or unmute the current tab with Alt+Shift+M. Icon Attribution: Mute by Delta from the Noun Project.",
+  "permissions": [
+    "commands",
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["assets/js/background.js"],
+    "persistent": false
+  },
+  "commands": {
+    "toggle-mute": {
+      "suggested_key": {
+        "default": "Alt+Shift+M"
+      },
+      "description": "Mute or unmute the current tab."
+    }
+  },
+  "icons": {
+    "16": "assets/img/icon16.png",
+    "48": "assets/img/icon48.png",
+    "128": "assets/img/icon128.png"
+  },
+  "manifest_version": 2
+}
